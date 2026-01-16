@@ -1,0 +1,17 @@
+[project]
+name = "agno-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "agno>=1.0.0",
+    "fastapi>=0.109.0",
+    "mcp>=1.25.0",
+    "openai>=2.15.0",
+    "psycopg[binary]>=3.1.0",
+    "pydantic>=2.5.0",
+    "rich>=13.7.0",
+    "sqlalchemy>=2.0.45",
+    "uvicorn[standard]>=0.27.0",
+]

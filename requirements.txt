@@ -1,0 +1,23 @@
+# Agno Multi-Agent Meta Ads System
+# Requirements
+
+# Core Agno framework
+agno>=1.0.0
+
+# FastAPI server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# PostgreSQL for session persistence, memory, and metrics
+psycopg[binary]>=3.1.0
+
+# Data validation
+pydantic>=2.5.0
+
+# Rich output
+rich>=13.7.0
+openai
+mcp
+sqlalchemy
+# Note: httpx is no longer needed - Agno handles session persistence
+# Note: Supabase integration removed - using Agno's PostgreSQL sessions
